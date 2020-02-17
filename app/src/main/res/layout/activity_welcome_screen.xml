@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeScreen">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/info1TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today repetiton equals  "
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/flashcardsToRepeatTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"/>
+        <TextView
+            android:id="@+id/info4TVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   flashcards"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/info2TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perseverance has lasted since    "
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/todayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/info3TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consecutive days:  "
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-light"/>
+
+
+        <TextView
+            android:id="@+id/dayTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"/>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/newBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:text="New"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/new_flashcards_btn"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#388E3C"/>
+
+    <Button
+        android:id="@+id/revisionBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="Repetition"
+        android:textColor="#D32F2F"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/repeat_flashcards_btn"
+        android:fontFamily="sans-serif-light"/>
+</LinearLayout>

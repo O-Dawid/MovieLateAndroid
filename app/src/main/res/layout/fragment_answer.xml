@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="220dp"
+    android:fillViewport="true">
+
+
+    <TextView
+        android:id="@+id/secondSideOfFlashcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="EX. SENTENCE: /Second Side OF FLASHCARD/ bBBB"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:paddingBottom="100dp"
+        android:fontFamily="sans-serif-light"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/iDidntKnewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/repeat_flashcards_btn"
+            android:elevation="3dp"
+            android:layout_marginRight="10dp"
+            android:text="I did't know"
+            android:textColor="#FF1768"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/iKnewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/new_flashcards_btn"
+            android:elevation="3dp"
+            android:text="I Knew"
+            android:layout_marginLeft="10dp"
+            android:textColor="#388E3C" />
+    </LinearLayout>
+
+</LinearLayout>

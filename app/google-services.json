@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139326418764",
+    "firebase_url": "https://movelate-8a3ee.firebaseio.com",
+    "project_id": "movelate-8a3ee",
+    "storage_bucket": "movelate-8a3ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139326418764:android:bad032155222798599a9e9",
+        "android_client_info": {
+          "package_name": "com.example.movielateandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139326418764-epv6vfmiiggi3pcomgb50b517h48rk6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movielateandroid",
+            "certificate_hash": "91af32bdf3a516ef307cf92baa771cf0b2c771e4"
+          }
+        },
+        {
+          "client_id": "139326418764-m62nl8bc02t8vs05ehsc98ucai0dej0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAos_BRE2SlEU-S3rSnU8ApNiA-3JJRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139326418764-m62nl8bc02t8vs05ehsc98ucai0dej0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
